@@ -1,8 +1,32 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
     <style name="Base.Theme.Estiron" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <!-- Colores de la ficha. En modo oscuro cambian solos con values-night/colors.xml -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorOnPrimary">@color/on_primary</item>
+        <item name="colorSecondary">@color/secondary</item>
+        <item name="colorSecondaryContainer">@color/secondary_container</item>
+        <item name="colorSurface">@color/surface</item>
+        <item name="colorOnSurface">@color/on_surface</item>
+        <item name="colorOnSurfaceVariant">@color/on_surface_variant</item>
+        <item name="colorSurfaceContainer">@color/surface_container</item>
+        <item name="colorSurfaceContainerHigh">@color/surface_container_high</item>
+        <item name="colorSurfaceContainerHighest">@color/surface_container_highest</item>
+        <item name="colorError">@color/error</item>
+        <item name="colorOnError">@color/on_error</item>
+        <item name="android:colorBackground">@color/surface</item>
+
+        <!-- Tipografía: Roboto de res/font y los estilos de texto de styles.xml -->
+        <item name="fontFamily">@font/roboto</item>
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="textAppearanceTitleLarge">@style/TextAppearance.Estiron.TitleLarge</item>
+        <item name="textAppearanceTitleMedium">@style/TextAppearance.Estiron.TitleMedium</item>
+        <item name="textAppearanceBodyLarge">@style/TextAppearance.Estiron.BodyLarge</item>
+        <item name="textAppearanceBodyMedium">@style/TextAppearance.Estiron.BodyMedium</item>
+        <item name="textAppearanceLabelLarge">@style/TextAppearance.Estiron.LabelLarge</item>
+        <item name="textAppearanceLabelMedium">@style/TextAppearance.Estiron.LabelMedium</item>
+        <item name="textAppearanceLabelSmall">@style/TextAppearance.Estiron.LabelSmall</item>
+        <item name="borderlessButtonStyle">@style/Widget.Estiron.Button.TextButton</item>
     </style>
 
     <style name="Theme.Estiron" parent="Base.Theme.Estiron" />

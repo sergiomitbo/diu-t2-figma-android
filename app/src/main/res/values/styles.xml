@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Estilos de texto de la ficha A3. Figma trabaja a 1x, así que 1 px = 1 sp.
+         El espaciado entre letras pasa de px a em: px de Figma / tamaño de la letra. -->
+
+    <!-- tv_titulo: 22 / 28 sp, Regular -->
+    <style name="TextAppearance.Estiron.TitleLarge" parent="TextAppearance.Material3.TitleLarge">
+        <item name="fontFamily">@font/roboto</item>
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:textFontWeight">400</item>
+        <item name="android:textSize">22sp</item>
+        <item name="lineHeight">28sp</item>
+        <item name="android:lineHeight">28sp</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <!-- et_buscar: 16 / 24 sp, Regular, 0,5 px / 16 = 0,03125 em -->
+    <style name="TextAppearance.Estiron.BodyLarge" parent="TextAppearance.Material3.BodyLarge">
+        <item name="fontFamily">@font/roboto</item>
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:textFontWeight">400</item>
+        <item name="android:textSize">16sp</item>
+        <item name="lineHeight">24sp</item>
+        <item name="android:lineHeight">24sp</item>
+        <item name="android:letterSpacing">0.03125</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <!-- Categorías, Novedades y precio: 16 / 24 sp, Medium -->
+    <style name="TextAppearance.Estiron.TitleMedium" parent="TextAppearance.Material3.TitleMedium">
+        <item name="fontFamily">@font/roboto</item>
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:textFontWeight">500</item>
+        <item name="android:textSize">16sp</item>
+        <item name="lineHeight">24sp</item>
+        <item name="android:lineHeight">24sp</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <!-- Edades y nombre del producto: 14 / 20 sp, Regular -->
+    <style name="TextAppearance.Estiron.BodyMedium" parent="TextAppearance.Material3.BodyMedium">
+        <item name="fontFamily">@font/roboto</item>
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:textFontWeight">400</item>
+        <item name="android:textSize">14sp</item>
+        <item name="lineHeight">20sp</item>
+        <item name="android:lineHeight">20sp</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <!-- btn_ver_todo: 14 / 20 sp, Medium, 0,1 px / 14 = 0,00714 em -->
+    <style name="TextAppearance.Estiron.LabelLarge" parent="TextAppearance.Material3.LabelLarge">
+        <item name="fontFamily">@font/roboto</item>
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:textFontWeight">500</item>
+        <item name="android:textSize">14sp</item>
+        <item name="lineHeight">20sp</item>
+        <item name="android:lineHeight">20sp</item>
+        <item name="android:letterSpacing">0.00714</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <!-- Etiquetas de bnv_inicio: 12 / 16 sp, Medium, 0,5 px / 12 = 0,04167 em -->
+    <style name="TextAppearance.Estiron.LabelMedium" parent="TextAppearance.Material3.LabelMedium">
+        <item name="fontFamily">@font/roboto</item>
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:textFontWeight">500</item>
+        <item name="android:textSize">12sp</item>
+        <item name="lineHeight">16sp</item>
+        <item name="android:lineHeight">16sp</item>
+        <item name="android:letterSpacing">0.04167</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <!-- tv_badge_carrito: 11 / 16 sp, Medium, 0,5 px / 11 = 0,04545 em -->
+    <style name="TextAppearance.Estiron.LabelSmall" parent="TextAppearance.Material3.LabelSmall">
+        <item name="fontFamily">@font/roboto</item>
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:textFontWeight">500</item>
+        <item name="android:textSize">11sp</item>
+        <item name="lineHeight">16sp</item>
+        <item name="android:lineHeight">16sp</item>
+        <item name="android:letterSpacing">0.04545</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <!-- btn_ver_todo: botón de texto de Material 3 con el relleno de Figma (16 dp a los lados).
+         El color del texto sale de colorPrimary del tema. -->
+    <style name="Widget.Estiron.Button.TextButton" parent="Widget.Material3.Button.TextButton">
+        <item name="android:textAppearance">@style/TextAppearance.Estiron.LabelLarge</item>
+        <item name="android:paddingStart">16dp</item>
+        <item name="android:paddingEnd">16dp</item>
+    </style>
+
+</resources>
