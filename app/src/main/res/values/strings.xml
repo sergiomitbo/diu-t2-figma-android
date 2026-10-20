@@ -1,3 +1,36 @@
 <resources>
-    <string name="app_name">Estiron</string>
+    <string name="app_name">Estirón</string>
+
+    <!-- Barra superior y buscador -->
+    <string name="titulo_inicio">Estirón</string>
+    <string name="hint_buscar">Busca pijamas, bodies, zapatillas…</string>
+
+    <!-- Categorías por edad -->
+    <string name="categoria_bebe">Bebé</string>
+    <string name="edad_bebe">0-24 m</string>
+    <string name="categoria_nina">Niña</string>
+    <string name="edad_nina">2-14 años</string>
+    <string name="categoria_nino">Niño</string>
+    <string name="edad_nino">2-14 años</string>
+
+    <!-- Novedades -->
+    <string name="titulo_novedades">Novedades</string>
+    <string name="boton_ver_todo">Ver todo</string>
+
+    <!-- Barra de navegación -->
+    <string name="nav_inicio">Inicio</string>
+    <string name="nav_catalogo">Catálogo</string>
+    <string name="nav_favoritos">Favoritos</string>
+
+    <!-- Descripciones para TalkBack (iconos sin texto) -->
+    <string name="cd_menu">Abrir el menú</string>
+    <string name="cd_buscar">Buscar</string>
+    <string name="cd_carrito">Abrir el carrito</string>
+    <string name="cd_favorito">Guardar en favoritos</string>
+
+    <!-- Productos de ejemplo de Novedades (en la app real vendrán de la base de datos) -->
+    <string name="producto_pijama_dinosaurios">Pijama de dinosaurios</string>
+    <string name="precio_pijama_dinosaurios">14,99 €</string>
+    <string name="producto_vestido_punto">Vestido de punto</string>
+    <string name="precio_vestido_punto">22,99 €</string>
 </resources>
